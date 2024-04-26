@@ -529,36 +529,3 @@ This graph shows how the average time required to submit a comment in different 
 
 
 
-Answers to questions: \
-
-
-Q1. What is Robot Framework, and how does Selenium fit inside Robot Framework?
-
-Ans: Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development. It is a keyword-driven testing framework that uses tabular test data syntax. The Robot Framework library, Selenium Library offers a list of keywords for using Selenium WebDriver to communicate with web browsers. It functions as a wrapper of Selenium, facilitating the creation of automated web application testing using the high-level, keyword-driven Robot Framework syntax. Because to this connection, we can use Selenium's power in the Robot Framework's structured environment to automate browser activities as part of their acceptance testing suites.
-
-([https://www.browserstack.com/guide/robot-framework-and-selenium-tutorial](https://www.browserstack.com/guide/robot-framework-and-selenium-tutorial), [https://github.com/robotframework/SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary))
-
-Q2. How could you use Selenium to perform record and playback. That is, how can it record a manual test, and playback (or run again) that manual test?
-
-Ans: For recording and playback capabilities, Selenium offers the Selenium IDE. Using that we can record out interactions with an online application and store them as automated test scripts using this browser extension, which is available for Firefox and Chrome. The application can then be tested by playing back these recorded scripts an unlimited number of times.
-
-
-
-1. Install Selenium IDE: Add it as an extension to Firefox or Chrome.
-2. Record a Test: Open Selenium IDE, start a new project, and press the record button. Perform your manual test steps on the web application. Selenium IDE will record these actions.
-3. Stop and Save: After completing the test steps, stop the recording and save the test script.
-4. Playback: Use Selenium IDE to play back the recorded test script to automate the execution of the test steps.
-
-([https://www.browserstack.com/guide/record-and-playback-in-selenium#:~:text=Click%20on%20%E2%80%9CCreate%20a%20new,and%20create%20new%20test%20cases.&text=To%20create%20a%20new%20test,Playback%20for%20the%20test%20cases](https://www.browserstack.com/guide/record-and-playback-in-selenium#:~:text=Click%20on%20%E2%80%9CCreate%20a%20new,and%20create%20new%20test%20cases.&text=To%20create%20a%20new%20test,Playback%20for%20the%20test%20cases)., [https://www.selenium.dev/selenium-ide/](https://www.selenium.dev/selenium-ide/))
-
-Q3. In this assignment we used Selenium WebDriver. What is Selenium IDE?
-
-Ans: As we talked about this in the previous question, the Selenium IDE is an open source record and playback test automation for the web. We just have to install the extension on our browser. And then we can record a manual test and then the IDE will perform that test for us as many times we want.
-
-Q4. What is Selenium Grid?
-
-Ans: A component of the Selenium Suite called Selenium Grid makes it possible to execute Selenium test scripts concurrently across several operating systems and browsers. It allows for distributed test execution, in which many environments are used to execute the tests concurrently. This makes it easier to test under multiple circumstances without requiring physical access to the computers or browsers, and it also helps to greatly reduce the amount of time needed to run comprehensive test suites.
-
-The Selenium Grid is made up of a central hub that distributes test orders to several nodes, each of which stands for a distinct operating system, browser, or version. This configuration is a crucial tool for cross-browser and cross-platform testing since it allows testing web applications in several contexts from a single central location. 
-
-(If we would know about this earlier we would do scalability test using this) ([https://www.selenium.dev/documentation/grid/](https://www.selenium.dev/documentation/grid/)) 
