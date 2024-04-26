@@ -1,19 +1,18 @@
 # 🌐 Selenium WebPage Testing 
 
 Welcome to our comprehensive 📚 testing documentation for the web application project. This repository is your gateway to all the test scripts 📝, results 📊, and analyses 🧐 from our extensive testing efforts. Our primary goal is to ensure the application's functionality, performance under stress, and scalability across various scenarios.
-## 🎯 Functional Tests:
+## 🎯 Functional Tests
 
-We can perform functional tests by checking for the functionalities written in the requirements table. Requirements 1 through 14 are “must have and should have” functional requirements. Requirements 15 through 17 are “could have” requirements. 
+We perform functional tests by checking the functionalities outlined in the requirements table. "Must have" and "should have" functional requirements are listed as RE-01 through RE-14, while "could have" requirements are RE-15 through RE-17.
 
-test_display() function checks if the webpage correctly shows the elements it is supposed to show. **Validates RE-01 and RE-06.**
+### Key Tests
 
-test_navigation_buttons() function checks if there are previous and next buttons on the website and if they correctly show the next and previous images as they are supposed to. **Validates RE-02 and RE-03.**
-
-test_wrap_around() function checks if wrap-arounds work, **Validating RE-04 and RE-05.**
-
-test_comment_submission() function submits comments and checks if they are correctly submitted. Check the order of the comment, as username first and comment after, and then check if the text fields are cleared or not. **Validates RE-07, RE-08 and RE-11.**
-
-test_comments_persistence() function checks for the persistence of comments. 
+- **`test_display()`**: Checks if the webpage correctly displays all required elements. **Validates RE-01 and RE-06.**
+- **`test_navigation_buttons()`**: Ensures that previous and next buttons navigate correctly. **Validates RE-02 and RE-03.**
+- **`test_wrap_around()`**: Tests if navigation wraps around correctly at the boundaries. **Validates RE-04 and RE-05.**
+- **`test_comment_submission()`**: Submits comments and checks for correctness and field clearance. **Validates RE-07, RE-08, and RE-11.**
+- **`test_comments_persistence()`**: Ensures comments persist when navigating away and back. **Validates RE-09.**
+- **`test_1000_comments()`**: Confirms the page can handle at least 1000 comments and that these are scrollable. **Validates RE-10 and RE-12.**
 
 **Validates RE-09.**
 
